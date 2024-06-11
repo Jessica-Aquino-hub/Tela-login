@@ -1,0 +1,176 @@
+ /* body{
+    background-image: url(https://64.media.tumblr.com/23e3066964586ada03f4189aaa01395f/866f4b724f593c92-ec/s1920x1080/7d01931fb6a0705c9b6346a23af5ec3dd9e9501a.gif);
+    background-size: 90%;
+} */
+
+ /* RESET GERAL */
+
+ * {
+     margin: 0;
+     padding: 0;
+     box-sizing: border-box;
+     color: #000000;
+     border: none;
+ }
+
+ body {
+     height: 100vh;
+     background:url("/imagem/1272079874_preview_HOTLINE_MIAMI_action_shooter_fighting_hotline_miami_payday_poster_1920x1080.webp"), center no-repeat;
+     background-size: cover;
+     display:grid;
+     place-items: center;
+ }
+
+ input:focus {
+     outline: none;
+ }
+
+ a {
+     font-size: .8rem;
+ }
+
+ a:hover {
+     color: #8b0808;
+ }
+
+ /* CONTAINER LOGIN */
+
+ #login-cotainer {
+     background-color: #000000b9;
+     width: 25rem;
+     padding: 1.25rem 1.8rem;
+     border-radius: 20px;
+     text-align: center;
+ }
+
+ /* ÁREA DO FORMULÁRIO*/
+h1{
+    color: #FFD340;
+    text-shadow: 2px 2px #7E0D05;
+    padding: 1.25rem 1.18rem;
+    font-size: 50px;
+    font-weight: bolder;
+   
+
+}
+ label,
+ input {
+    padding-right: 80%;
+     display: block;
+     width: 100%;
+     text-align: left;
+ }
+
+ label {
+     font-weight: bold;
+     font-size: 1.3rem;
+     color:#FFD340;
+     text-shadow: 2px 2px #7E0D05 ;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+ }
+
+ input {
+     border-bottom: 2px solid #FFFFFF;
+     padding: 10px;
+     font-size: 1rem;
+     margin-bottom: 20px;
+     border-radius: 10px;
+
+ }
+
+ input:focus {
+     border-bottom: 2px solid ;
+     
+    
+ }
+
+ #forgot-pass {
+     display: block;
+     text-align: right;
+     color: antiquewhite;
+ }
+
+ #forgot-pass:hover{
+    color: #F45F09;
+}
+
+#register-cotainer,a{
+    color: antiquewhite;
+}
+#register-cotainer,a:hover{
+  color: #F45F09;
+}
+ input[type="submit"] {
+     background:linear-gradient(#be4106,#F45F09);
+     text-align: center;
+     color: #F3EDE2;
+     border: none;
+     height: 40px;
+     border-radius: 20px;
+     margin-top: 30px;
+     font-weight: bolder;
+     cursor: pointer;
+     width: 40%;
+     margin: 30px auto 20px;
+     transition: width 1.5s;
+   
+ }
+
+ input[type="submit"]:hover {
+     background: linear-gradient(45deg, #1A0623,#9D1350)bottom;
+     width: 100%;
+     
+ }
+
+
+ /* SOCIAL CONTAINER */
+
+#social-container, social-container, p{
+    margin-bottom: 1.25rem;
+    color:antiquewhite;
+    
+}
+#social-container i{
+    width: 2.5rem;
+    height: 2.5rem;
+    color: antiquewhite;
+    line-height: 2.5rem;
+    border-radius: 50%;
+    font-size: 1.5rem;
+    transition: all 1.5s;
+    cursor: pointer;
+    
+}
+
+
+/* COLORAÇÃO DOS ICONS */
+.fa-facebook:hover{
+    background-color: #1f7bf2;
+    transform: scale(150%);
+}
+
+.fa-linkedin:hover{
+    background-color: #08558b;
+    transform: scale(150%);
+}
+
+.fa-yahoo:hover{
+    background-color:#7A1FF5;
+    transform: scale(150%);
+}
+
+.fa-pinterest:hover{
+    background-color:#D70014;
+    transform: scale(150%);
+}
+
+.fa-instagram:hover{
+    background: linear-gradient(125deg,#F6BC00,#FD0215,#920AEF,#F600AD) bottom;
+    transform: scale(150%);
+}
+.fa-whatsapp:hover{
+    background: linear-gradient(#5ff475,#38c33a) bottom;
+    transform: scale(150%);
+}
