@@ -15,7 +15,7 @@
 
  body {
      height: 100vh;
-     background:url("/imagem/1272079874_preview_HOTLINE_MIAMI_action_shooter_fighting_hotline_miami_payday_poster_1920x1080.webp"), center no-repeat;
+     background:url("imagem/1272079874_preview_HOTLINE_MIAMI_action_shooter_fighting_hotline_miami_payday_poster_1920x1080.webp"), center no-repeat;
      background-size: cover;
      display:grid;
      place-items: center;
